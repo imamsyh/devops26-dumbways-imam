@@ -1,0 +1,50 @@
+1. Jalankan tugas nomor 3 & 4 di day 3 dalam bentuk script BASH! 
+- untuk menjalankan script BASH, kita harus membuat file untuk mejalankan script 
+ 
+- untuk menjalankan file tersebut kita harus mengubah hak akses dengan ( chmod +x nama file)
+- +x = mengubah hak akses menjadi file bisa di eksekusi
+ 
+a.  cat = membaca file
+- membaca file menggunakan script bash dengan mengetik perintah didalam file lalu eksekusi
+ 
+ 
+- bisa juga membaca beberapa perintah 
+ 
+- membaca file, menggabungkan file yang disimpan di file baru (file4)
+ 
+
+b. sed 
+- mengubah text didalam file
+ 
+ 
+c. grep 
+- mencari text
+ 
+- mencari text dan menghitung kata didalam direktori
+ 
+ 
+d. sort 
+- mengurutkan angka atau huruf
+ 
+- mengurutkan secara ascending dan descending
+ 
+ 
+e. Nyalakan ufw dengan memberikan akses untuk port 22, 80, 443, 3000, 5000 dan 6969!
+- dengan menggunakan script bash bisa mengizinkan/menolak izin port secara langsung menggunakan perintah looping, pertama membuat array port lalu melakukan looping pada array yang akan melakukan sudo ufw deny $port 
+- karena sebelumnya telah melakukan pengizinan terhadap port maka pada gambar melakukan penolakan
+- jika ingin mengizinkan kembali ubah perintah menjadi sudo ufw allow $port
+ 
+ 
+ 
+2. Scriptnya bisa menyalakan/menambahkan, dan juga bisa mematikan/menghapus konfigurasinya (No. 1)
+-  Pada script bash kita bisa menggunalan perintah if-else, yang mana akan membaca text konfirmasi jika “n” maka akan menjalankan perintah sudo systemctl stop ssh
+ 
+ 
+- Kita coba di terminal akan keluar connection refused karena ssh inactive (dead)
+ 
+
+
+-  lalu jika saat membaca text konfirmasi  “y” maka akan menjalankan perintah sudo systemctl start ssh 
+- Kita coba di terminal akan jalan karena ssh sudah active (running)
+ 
+
