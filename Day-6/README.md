@@ -34,6 +34,6 @@ Cara Kerja:
 <img width="960" height="233" alt="Screenshot 2026-02-07 125838" src="https://github.com/user-attachments/assets/b5fce682-ae6b-4eef-95a5-eb159b4c7401" />
 
 - Jalankan domain di web
-<img width="1920" height="1080" alt="Screenshot 2026-02-07 131056" src="https://github.com/user-attachments/assets/cfd799a0-a034-4d1d-8e3d-c6e9c6424744" />
+<img width="1920" height="1009" alt="Screenshot 2026-02-07 131056" src="https://github.com/user-attachments/assets/0ab0753c-65a6-443a-8d91-208b06435657" />
 
 
